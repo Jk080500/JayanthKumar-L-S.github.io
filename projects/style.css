@@ -1,0 +1,63 @@
+body{
+    margin: auto;
+    padding: auto;
+
+}
+
+h1{
+    margin: 0;
+    font-family: cursive;
+    color: black;
+    background-image: transparent;
+    display: flex;
+    justify-content: center;
+    outline: none;
+    transition: 0.5s ease;
+    
+
+}
+
+h1:hover{
+    margin-top: 40px;
+    cursor: pointer;
+    background:transparent;
+    color: rgb(247, 243, 243);
+    box-shadow: 0 0 5px white, 0 0 10px white , 0 0 15px white;
+    font-weight: bold;
+    border-radius: 100%;
+    padding: 20px;
+    
+}
+body{
+
+    background-image: url(../img/project_bg.jpg);
+    
+    background-repeat: no-repeat;
+}
+
+
+.main-container{
+
+    
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+
+}
+
+img{
+    margin-top: 40px;
+    width: 575px;
+    height: 400px;
+   
+}
+
+a{
+    color: rgb(5, 124, 228);
+    text-decoration: none;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    
+}
