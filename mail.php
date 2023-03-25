@@ -12,6 +12,10 @@ if($email!=NULL){
     mail($to,$subject,$txt,$headers);
     header("Location:Thankyou.html");
 }
+if ( isset( $_POST["submit"] ) ) { 
+      // (deal with the submitted fields here) 
+      header( "Location: Thankyou.html" ); 
+      exit; 
 //redirect
 //
 ?>
